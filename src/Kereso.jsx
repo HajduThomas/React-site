@@ -1,5 +1,5 @@
 import React, {useState, useEffect } from "react";
-function Kereső({elemek}) {
+function Kereso({elemek}) {
     const [szurő, setSzuro] = useState("");
     const [szuroelemek, setSzuroelemek] = useState([]);
 
@@ -29,3 +29,4 @@ function Kereső({elemek}) {
         </div>
     )
 }
+export default Kereso;

@@ -13,7 +13,8 @@ function KonyvKereso() {
     return(
         <div>
             <h2>Könyv kereső</h2>
-            <Kereso items={konyvek}></Kereso>
+            <Kereso elemek={konyvek}></Kereso>
         </div>
     )
 }
+export default KonyvKereso;
