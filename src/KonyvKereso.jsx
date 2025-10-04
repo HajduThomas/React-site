@@ -1,5 +1,5 @@
 import React from "react";
-import Kereső from "./Kereso.jsx";
+import Kereso from "./Kereso.jsx";
 const konyvek = [
     "Az aranyember",
     "Egri csillagok",
@@ -13,7 +13,7 @@ function KonyvKereso() {
     return(
         <div>
             <h2>Könyv kereső</h2>
-            <Kereső items={konyvek}></Kereső>
+            <Kereso items={konyvek}></Kereso>
         </div>
     )
 }
